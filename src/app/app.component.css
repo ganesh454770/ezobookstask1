@@ -1,0 +1,38 @@
+.toolbar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    background-color: #1976d2;
+    color: white;
+    font-weight: 600;
+  }
+
+  .spacer {
+    flex: 1;
+  }
+
+  .img{
+    margin: 10px;
+    border: none;
+    float: left;
+    width: 200px;
+    height: 300px;
+
+  }
+
+  .img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .desc{
+    padding: 5px;
+    font-weight: 300;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+
